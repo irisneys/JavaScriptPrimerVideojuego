@@ -29,6 +29,7 @@ canvas {
     border: 4px solid var(--border-color);
     border-radius: 8px;
     background-color: var(--camba-bg);
+    margin-bottom: 15px;
 }
 
 .btns {
@@ -37,6 +38,7 @@ canvas {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 button {
