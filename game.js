@@ -57,7 +57,7 @@ function setCanvasSize() {
 function startGame() {
   console.log({ canvasSize, elementSize });
 
-  games.font = elementSize-6 + "px Verdana";
+  games.font = elementSize - 6 + "px Verdana";
   games.textAlign = "end";
 
   const map = maps[level];
@@ -155,16 +155,12 @@ function levelFail() {
     lives = 3;
     timeStart = undefined;
     
-    hideBtnRestart();
-    showBtnRestart();
     }
 
   playerPosition.x = undefined;
   playerPosition.y = undefined;
   
-  startGame();  
-  
-  
+  startGame();    
 }
 
 function gameWinAndRecord() {
